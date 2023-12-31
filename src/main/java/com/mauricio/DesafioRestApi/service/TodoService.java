@@ -1,5 +1,6 @@
 package com.mauricio.DesafioRestApi.service;
 
+
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
@@ -32,6 +33,7 @@ public class TodoService {
 		return todoRespository.findAll(sort);
 		
 	}
+	
 	public List<Todo> update(Todo todo){
 		todoRespository.save(todo);
 		return list();
