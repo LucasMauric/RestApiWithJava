@@ -15,7 +15,7 @@ class DesafioRestApiApplicationTests {
 	private WebTestClient webTestClient;
 	@Test
 	void testeTodoSuccess() {
-		var todo = new Todo("teste 1 ","descricao 1" , false, 1);
+		var todo = new Todo("teste000","descricao 1" , false, 1);
 		
 		
 		
